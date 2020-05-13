@@ -5,6 +5,12 @@
 *.tfstate
 *.tfstate.*
 
+
+*.out
+*.plan
+./versions/backend.tf
+*.provider.*
+
 # Crash log files
 crash.log
 
@@ -27,3 +33,19 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# MacOS metadata dir
+.DS_Store
+
+.idea/
+.gradle/
