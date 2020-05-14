@@ -125,7 +125,7 @@ then
     exit_on_error $? !!
     if [[ ${RUNNING_IN_AWSCODEBUILD} == True ]]
     then
-      TERRAGRUNT_IAM_ROLE="arn:aws:iam::895523100917:role/service-role/AWSCodePipelineServiceRole-eu-west-2-delius-versions"
+      unset TERRAGRUNT_IAM_ROLE
     fi
     echo "Output ---> set environment stage complete for ${ENVIRONMENT_NAME}"
     ACTION_TYPE="docker-${ACTION_TYPE}"
