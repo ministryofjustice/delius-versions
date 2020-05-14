@@ -29,6 +29,20 @@ exit_on_error() {
   fi
 }
 
+terragrunt_exit_on_error() {
+  exit_code=$1
+  last_command=${@:2}
+  if [ $exit_code -ne 0 ] || [ $exit_code -ne 2 ]; then
+      >&2 echo "\"${last_command}\" command failed with exit code WTF! ${exit_code}."
+      exit ${exit_code}
+  fi
+
+  if [ $exit_code -eq 0 ] || [ $exit_code -eq 2 ]; then
+      >&2 echo "\"${last_command}\" DOES THIS EVER RUN?! ${exit_code}."
+      exit 0
+  fi
+}
+
 cleanUp() {
   echo "cleanUp"
   echo "${ENVIRONMENT_NAME}"
@@ -156,10 +170,9 @@ case ${ACTION_TYPE} in
     ;;
   docker-plan)
     echo "Running docker plan action"
-    terragrunt init
-    exit_on_error $? !!
-    terragrunt plan -detailed-exitcode --out ${ENVIRONMENT_NAME}.plan
-    exit_on_error $? !!
+    #terragrunt plan -detailed-exitcode --out ${ENVIRONMENT_NAME}.plan
+    terragrunt plan --out ${ENVIRONMENT_NAME}.plan
+    terragrunt_exit_on_error $?
     ;;
   apply)
     echo "Running apply action"
@@ -171,7 +184,7 @@ case ${ACTION_TYPE} in
   docker-apply)
     echo "Running docker apply action"
     terragrunt apply ${ENVIRONMENT_NAME}.plan
-    exit_on_error $? !!
+    terragrunt_exit_on_error $? !!
     ;;
   destroy)
     echo "Running destroy action"
@@ -183,7 +196,7 @@ case ${ACTION_TYPE} in
   docker-destroy)
     echo "Running docker destroy action"
     terragrunt destroy -force
-    exit_on_error $? !!
+    terragrunt_exit_on_error $? !!
     ;;
   test)
     echo "Running test action"
@@ -213,7 +226,7 @@ case ${ACTION_TYPE} in
   docker-output)
     echo "Running docker apply action"
     terragrunt output
-    exit_on_error $? !!
+    terragrunt_exit_on_error $? !!
     ;;
   *)
     echo "${ACTION_TYPE} is not a valid argument. init - apply - test - output - destroy"
