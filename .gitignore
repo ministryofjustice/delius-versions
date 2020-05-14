@@ -8,8 +8,8 @@
 
 *.out
 *.plan
-./versions/backend.tf
-*.provider.*
+*/backend.tf
+*/provider.tf
 
 # Crash log files
 crash.log

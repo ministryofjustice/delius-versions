@@ -43,7 +43,6 @@ cleanUp() {
       sleep 5
     fi
   fi
-  rm -rf ${HOME}/data/env_configs/inspec.properties
 }
 
 ENVIRONMENT_NAME=${1}
@@ -124,9 +123,9 @@ then
     echo "Output -> environment stage"
     source "${baseDir}/config/${ENVIRONMENT_NAME}.properties"
     exit_on_error $? !!
-    echo "Output ---> set environment stage complete"
+    echo "Output ---> set environment stage complete for ${ENVIRONMENT_NAME}"
     ACTION_TYPE="docker-${ACTION_TYPE}"
-    #cd ${COMPONENT}
+    cd ${COMPONENT}
     echo "Output -> Component Container working Dir: $(pwd)"
 fi
 
