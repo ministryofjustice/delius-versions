@@ -31,12 +31,12 @@ exit_on_error() {
 terragrunt_exit_on_error() {
   exit_code=$1
   last_command=${@:2}
-  if [ $exit_code -ne 0 ] || [ $exit_code -ne 2 ]; then
+  if [ $exit_code -ne 0 ] && [ $exit_code -ne 2 ]; then
     echo >&2 "\"${last_command}\" command failed with exit code WTF! ${exit_code}."
     exit ${exit_code}
   fi
 
-  if [ $exit_code -eq 0 ] || [ $exit_code -eq 2 ]; then
+  if [ $exit_code -eq 0 ] && [ $exit_code -eq 2 ]; then
     echo >&2 "\"${last_command}\" DOES THIS EVER RUN?! ${exit_code}."
     exit 0
   fi
