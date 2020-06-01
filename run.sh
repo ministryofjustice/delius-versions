@@ -118,7 +118,6 @@ runCmd="docker run -it --rm -v $(pwd):/home/tools/data \
     -v $(pwd)/run.sh:/home/tools/run.sh \
     ${TOKEN_ARGS} \
     -e RUNNING_IN_CONTAINER=True \
-    -e \"TERM=xterm-256color\" \
     mojdigitalstudio/hmpps-terraform-builder-0-12:latest sh /home/tools/run.sh ${ENVIRONMENT_NAME} ${ACTION_TYPE} ${COMPONENT}"
 
 #check env vars for RUNNING_IN_CONTAINER switch
