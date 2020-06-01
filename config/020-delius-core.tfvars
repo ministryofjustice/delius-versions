@@ -3,7 +3,7 @@
 # This congig relates to the code needed in the DELIUS section of the pipeline.
 # example DAMS/{env name}/DELIUS
 
-Infrastructure Terraform
+# #Infrastructure Terraform
 hmpps-delius-core-terraform = {
   delius-core-dev      = ""
   delius-core-sandpit  = ""
