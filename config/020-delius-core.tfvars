@@ -5,8 +5,8 @@
 
 # #Infrastructure Terraform
 hmpps-delius-core-terraform = {
-  delius-core-dev      = ""
-  delius-core-sandpit  = ""
+  # delius-core-dev      = "" # force to default to branch
+  # delius-core-sandpit  = "" # force to default to branch
   delius-int           = "1.6.0" #2020-05-15:12:24
   delius-mis-dev       = "1.9.0" #2020-01-23:16:04
   delius-perf          = "1.8.0" #2020-05-28:14:15
