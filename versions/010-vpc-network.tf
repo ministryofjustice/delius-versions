@@ -11,3 +11,17 @@ module "hmpps-delius-network-terraform" {
 output "hmpps-delius-network-terraform" {
   value = "${module.hmpps-delius-network-terraform.this}"
 }
+
+module "delius-network-hmpps-env-configs" {
+  source = "../modules/version"
+
+  subcomponent = "vpc-network"
+  item_type   = "repo"
+  item_name   = "hmpps-env-configs"
+  env_version = var.delius-network-hmpps-env-configs
+  tags        = var.tags
+}
+
+output "delius-network-hmpps-env-configs" {
+  value = "${module.hmpps-delius-network-terraform.this}"
+}

@@ -7,6 +7,11 @@ variable "hmpps-delius-network-terraform" {
   description = "Parameter key and value"
 }
 
+variable "delius-network-hmpps-env-configs" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
 variable "hmpps-delius-core-terraform" {
   type        = map(string)
   description = "Parameter key and value"
