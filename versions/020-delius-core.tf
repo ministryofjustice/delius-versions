@@ -11,3 +11,17 @@ module "hmpps-delius-core-terraform" {
 output "hmpps-delius-core-terraform" {
   value = "${module.hmpps-delius-core-terraform.this}"
 }
+
+module "delius-core-hmpps-env-configs" {
+  source = "../modules/version"
+
+  subcomponent = "delius-core"
+  item_type   = "repo"
+  item_name   = "hmpps-env-configs"
+  env_version = var.delius-core-hmpps-env-configs
+  tags        = var.tags
+}
+
+output "delius-core-env-config" {
+  value = "${module.hmpps-delius-core-terraform.this}"
+}
