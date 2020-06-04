@@ -22,6 +22,6 @@ module "delius-core-hmpps-env-configs" {
   tags        = var.tags
 }
 
-output "delius-core-env-config" {
+output "delius-core-hmpps-env-configs" {
   value = "${module.hmpps-delius-core-terraform.this}"
 }
