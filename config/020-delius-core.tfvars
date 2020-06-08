@@ -7,7 +7,7 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-int           = "1.6.0"
+  delius-int           = "1.13.0"
   delius-mis-dev       = "1.9.0"
   delius-training-test = "0.1.0"
   delius-training      = "1.6.0"
@@ -22,7 +22,7 @@ hmpps-delius-core-terraform = {
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-int           = "1.51.0" #2020-06-01:18:19
+  delius-int           = "1.58.0"
   delius-mis-dev       = "1.53.0" #2020-06-02:11:40
   delius-training-test = "1.53.0" #2020-06-02:13:09
   delius-training      = "1.53.0" #2020-06-02:14:17
