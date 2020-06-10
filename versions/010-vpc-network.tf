@@ -23,5 +23,5 @@ module "delius-network-hmpps-env-configs" {
 }
 
 output "delius-network-hmpps-env-configs" {
-  value = "${module.hmpps-delius-network-terraform.this}"
+  value = "${module.delius-network-hmpps-env-configs.this}"
 }
