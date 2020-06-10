@@ -23,5 +23,5 @@ module "delius-core-hmpps-env-configs" {
 }
 
 output "delius-core-hmpps-env-configs" {
-  value = "${module.hmpps-delius-core-terraform.this}"
+  value = "${module.delius-core-hmpps-env-configs.this}"
 }
