@@ -25,3 +25,17 @@ module "delius-core-hmpps-env-configs" {
 output "delius-core-hmpps-env-configs" {
   value = "${module.delius-core-hmpps-env-configs.this}"
 }
+
+module "delius-core-db-ami" {
+  source = "../modules/version"
+
+  subcomponent = "delius-core"
+  item_type   = "ami"
+  item_name   = "db-ami"
+  env_version = var.delius-core-db-ami
+  tags        = var.tags
+}
+
+output "delius-core-db-ami" {
+  value = "${module.delius-core-db-ami.this}"
+}
