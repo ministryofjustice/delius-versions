@@ -1,6 +1,6 @@
 ## delius.tfvars
 
-# This congig relates to the code needed in the DELIUS section of the pipeline.
+# This config relates to the code needed in the DELIUS section of the pipeline.
 # example DAMS/{env name}/DELIUS
 
 # #Infrastructure Terraform
@@ -16,7 +16,7 @@ hmpps-delius-core-terraform = {
   delius-perf          = "1.14.0"
   delius-stage         = "1.12.0"
   delius-pre-prod      = "1.12.0"
-  delius-prod          = "1.6.0" #2020-05-15:19:34
+  delius-prod          = "1.14.0"
 }
 
 delius-core-hmpps-env-configs = {
@@ -31,7 +31,7 @@ delius-core-hmpps-env-configs = {
   delius-perf          = "1.55.0" #2020-06-02:18:49
   delius-stage         = "1.54.0" #2020-06-02:17:51
   delius-pre-prod      = "1.54.0" #2020-06-02:17:52
-  delius-prod          = "1.24.0" #2020-05-15:19:34
+  delius-prod          = "1.68.0"
 }
 
 delius-core-db-ami = {
