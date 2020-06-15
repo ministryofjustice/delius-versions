@@ -35,16 +35,16 @@ delius-core-hmpps-env-configs = {
 }
 
 delius-core-db-ami = {
-  delius-core-dev      = "HMPPS Delius-Core OracleDB master *"
-  delius-core-sandpit  = "HMPPS Delius-Core OracleDB master *"
-  delius-int           = "HMPPS Delius-Core OracleDB master *"
-  delius-mis-dev       = "HMPPS Delius-Core OracleDB master *"
-  delius-training-test = "HMPPS Delius-Core OracleDB master *"
-  delius-training      = "HMPPS Delius-Core OracleDB master *"
-  delius-test          = "HMPPS Delius-Core OracleDB master *"
-  delius-po-test1      = "HMPPS Delius-Core OracleDB master *"
-  delius-perf          = "HMPPS Delius-Core OracleDB master *"
-  delius-stage         = "HMPPS Delius-Core OracleDB master *"
-  delius-pre-prod      = "HMPPS Delius-Core OracleDB master *"
-  delius-prod          = "HMPPS Delius-Core OracleDB master *"
+  delius-core-dev      = "HMPPS Delius-Core OracleDB master 1561265436"
+  delius-core-sandpit  = "HMPPS Delius-Core OracleDB master 1591025503"
+  delius-int           = "HMPPS Delius-Core OracleDB master 1572756534"
+  delius-mis-dev       = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-training-test = "HMPPS Delius-Core OracleDB master 1554007768"
+  delius-training      = "HMPPS Delius-Core OracleDB master 1574571119"
+  delius-test          = "HMPPS Delius-Core OracleDB master 1554612572"
+  delius-po-test1      = "HMPPS Delius-Core OracleDB master 1554612572"
+  delius-perf          = "HMPPS Delius-Core OracleDB master 1579409447"
+  delius-stage         = "HMPPS Delius-Core OracleDB master 1575175795"
+  delius-pre-prod      = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-prod          = "HMPPS Delius-Core OracleDB master 1563079839"
 }
