@@ -26,3 +26,13 @@ variable "delius-core-db-ami" {
   type        = map(string)
   description = "Parameter key and value"
 }
+
+variable "hmpps-mis-terraform-repo" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
+variable "mis-hmpps-env-configs" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
