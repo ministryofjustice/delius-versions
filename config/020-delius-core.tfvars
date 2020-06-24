@@ -14,7 +14,7 @@ hmpps-delius-core-terraform = {
   delius-test          = "1.14.0"
   delius-po-test1      = "1.14.0"
   delius-perf          = "1.14.0"
-  delius-stage         = "1.12.0"
+  delius-stage         = "1.14.0"
   delius-pre-prod      = "1.12.0"
   delius-prod          = "1.14.0"
 }
@@ -29,7 +29,7 @@ delius-core-hmpps-env-configs = {
   delius-test          = "1.60.0"
   delius-po-test1      = "1.87.0"
   delius-perf          = "1.55.0" #2020-06-02:18:49
-  delius-stage         = "1.54.0" #2020-06-02:17:51
+  delius-stage         = "1.90.0"
   delius-pre-prod      = "1.54.0" #2020-06-02:17:52
   delius-prod          = "1.68.0"
 }
