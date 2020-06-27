@@ -31,7 +31,7 @@ delius-core-hmpps-env-configs = {
   delius-perf          = "1.55.0" #2020-06-02:18:49
   delius-stage         = "1.90.0"
   delius-pre-prod      = "1.54.0" #2020-06-02:17:52
-  delius-prod          = "1.93.0"
+  delius-prod          = "1.94.0"
 }
 
 delius-core-db-ami = {
