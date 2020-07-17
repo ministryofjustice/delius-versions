@@ -15,7 +15,7 @@ hmpps-delius-core-terraform = {
   delius-stage         = "2.0.0"
   delius-training-test = "2.0.0"
   delius-training      = "vALS-68_1.15.0"
-  delius-pre-prod      = "1.12.0"
+  delius-pre-prod      = "vALS-68_1.15.0"
   delius-prod          = "1.14.0"
 }
 
