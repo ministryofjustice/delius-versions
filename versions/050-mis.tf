@@ -31,7 +31,7 @@ module "mis-db-ami" {
 
   subcomponent = "mis"
   item_type   = "ami"
-  item_name   = "db-ami"
+  item_name   = "mis-db-ami"
   env_version = var.mis-db-ami
   tags        = var.tags
 }
@@ -45,7 +45,7 @@ module "misboe-db-ami" {
 
   subcomponent = "mis"
   item_type   = "ami"
-  item_name   = "db-ami"
+  item_name   = "misboe-db-ami"
   env_version = var.misboe-db-ami
   tags        = var.tags
 }
@@ -59,7 +59,7 @@ module "misdsd-db-ami" {
 
   subcomponent = "mis"
   item_type   = "ami"
-  item_name   = "db-ami"
+  item_name   = "misdsd-db-ami"
   env_version = var.misdsd-db-ami
   tags        = var.tags
 }
