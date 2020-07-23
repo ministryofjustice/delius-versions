@@ -19,3 +19,24 @@ mis-hmpps-env-configs = {
   delius-pre-prod      = "1.74.0"
   delius-prod          = "1.74.0"
 }
+
+mis-db-ami = {
+  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
+  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
+}
+
+misboe-db-ami = {
+  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
+  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
+}
+
+misdsd-db-ami = {
+  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
+  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
+}
