@@ -14,10 +14,10 @@ hmpps-mis-terraform-repo = {
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.74.0"
-  delius-stage         = "1.74.0"
-  delius-pre-prod      = "1.74.0"
-  delius-prod          = "1.74.0"
+  delius-mis-dev       = "1.133.0"
+  delius-stage         = "1.133.0"
+  delius-pre-prod      = "1.133.0"
+  delius-prod          = "1.133.0"
 }
 
 mis-db-ami = {
