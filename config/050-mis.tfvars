@@ -9,7 +9,7 @@
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "0.9.0"
   delius-stage         = "0.9.0"
-  delius-pre-prod      = "0.8.0"
+  delius-pre-prod      = "vALS-68_0.8.0"
   delius-prod          = "0.8.0"
 }
 
