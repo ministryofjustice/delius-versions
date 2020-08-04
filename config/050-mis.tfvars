@@ -16,32 +16,35 @@ hmpps-mis-terraform-repo = {
 
 mis-hmpps-env-configs = {
   delius-mis-dev       = "1.142.0"
-  delius-auto-test     = "1.142.0"
+  delius-auto-test     = "1.144.0"
   delius-stage         = "1.142.0"
   delius-pre-prod      = "1.133.0"
   delius-prod          = "1.133.0"
 }
 
+# The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
+# Oracle 11g Database and Oracle 19c Grid combination
+
 mis-db-ami = {
-  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-mis-dev      = "HMPPS OracleDB 11g master 1592301712"
   delius-auto-test    = "HMPPS OracleDB 11g master 1592301712"
-  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
-  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
+  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
   delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
 }
 
 misboe-db-ami = {
-  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-mis-dev      = "HMPPS OracleDB 11g master 1592301712"
   delius-auto-test    = "HMPPS OracleDB 11g master 1592301712"
-  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
-  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
+  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
   delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
 }
 
 misdsd-db-ami = {
-  delius-mis-dev      = "HMPPS Delius-Core OracleDB master 1576385426"
+  delius-mis-dev      = "HMPPS OracleDB 11g master 1592301712"
   delius-auto-test    = "HMPPS OracleDB 11g master 1592301712"
-  delius-stage        = "HMPPS Delius-Core OracleDB master 1584247874"
-  delius-pre-prod     = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
+  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
   delius-prod         = "HMPPS Delius-Core OracleDB master 1563079839"
 }

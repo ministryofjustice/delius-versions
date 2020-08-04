@@ -23,7 +23,7 @@ hmpps-delius-core-terraform = {
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "1.142.0"
+  delius-auto-test     = "1.144.0"
   delius-int           = "1.104.0"
   delius-mis-dev       = "1.142.0"
   delius-test          = "1.104.0"
@@ -36,18 +36,21 @@ delius-core-hmpps-env-configs = {
   delius-prod          = "1.94.0"
 }
 
+# The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
+# Oracle 11g Database and Oracle 19c Grid combination
+
 delius-core-db-ami = {
   delius-core-dev      = "HMPPS OracleDB 11g master 1592301712"
   delius-core-sandpit  = "HMPPS OracleDB 11g master 1592301712"
   delius-auto-test     = "HMPPS OracleDB 11g master 1592301712"
   delius-int           = "HMPPS OracleDB 11g master 1592301712"
   delius-mis-dev       = "HMPPS OracleDB 11g master 1592301712"
-  delius-test          = "HMPPS Delius-Core OracleDB master 1554612572"
+  delius-test          = "HMPPS OracleDB 11g master 1592301712"
   delius-po-test1      = "HMPPS OracleDB 11g master 1592301712"
   delius-perf          = "HMPPS OracleDB 11g master 1592301712"
-  delius-stage         = "HMPPS Delius-Core OracleDB master 1575175795"
-  delius-training-test = "HMPPS Delius-Core OracleDB master 1554007768"
+  delius-stage         = "HMPPS OracleDB 11g master 1592301712"
+  delius-training-test = "HMPPS OracleDB 11g master 1592301712"
   delius-training      = "HMPPS OracleDB 11g master 1592301712"
-  delius-pre-prod      = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-pre-prod      = "HMPPS OracleDB 11g master 1592301712"
   delius-prod          = "HMPPS Delius-Core OracleDB master 1563079839"
 }
