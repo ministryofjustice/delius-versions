@@ -7,19 +7,19 @@
 
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
-  delius-mis-dev       = "0.12.0"
-  delius-auto-test     = "0.12.0"
-  delius-stage         = "0.12.0"
-  delius-pre-prod      = "vALS-1363_0.8.0"
-  delius-prod          = "vALS-1363_0.8.0"
+  delius-mis-dev       = "0.13.0"
+  delius-auto-test     = "0.13.0"
+  delius-stage         = "0.13.0"
+  delius-pre-prod      = "vALS-1364_0.8.0"
+  delius-prod          = "vALS-1364_0.8.0"
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.142.0"
-  delius-auto-test     = "1.144.0"
-  delius-stage         = "1.142.0"
-  delius-pre-prod      = "1.133.0"
-  delius-prod          = "1.133.0"
+  delius-mis-dev       = "1.152.0"
+  delius-auto-test     = "1.152.0"
+  delius-stage         = "1.152.0"
+  delius-pre-prod      = "1.152.0"
+  delius-prod          = "1.152.0"
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
