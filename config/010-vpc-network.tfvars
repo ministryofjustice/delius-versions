@@ -15,8 +15,8 @@ hmpps-delius-network-terraform = {
   delius-perf          = "0.9.0"
   delius-stage         = "0.9.0"
   delius-training-test = "0.9.0"
-  delius-training      = "0.6.0"
-  delius-pre-prod      = "0.1.0"
+  delius-training      = "0.9.0"
+  delius-pre-prod      = "0.9.0"
   delius-prod          = "0.1.0"
 }
 
@@ -31,7 +31,7 @@ delius-network-hmpps-env-configs = {
   delius-perf          = "1.155.0"
   delius-stage         = "1.155.0"
   delius-training-test = "1.155.0"
-  delius-training      = "1.108.0"
-  delius-pre-prod      = "1.54.0" #2020-06-02:17:52
+  delius-training      = "1.155.0"
+  delius-pre-prod      = "1.155.0"
   delius-prod          = "1.24.0" #2020-05-15:19:34
 }
