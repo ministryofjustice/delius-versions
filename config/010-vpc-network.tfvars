@@ -11,13 +11,13 @@ hmpps-delius-network-terraform = {
   delius-int           = "1.0.0"
   delius-mis-dev       = "1.0.0"
   delius-test          = "1.0.0"
-  delius-po-test1      = "0.9.0" # TF11
-  delius-perf          = "0.9.0" # TF11
-  delius-stage         = "0.9.0" # TF11
-  delius-training-test = "0.9.0" # TF11
-  delius-training      = "0.9.0" # TF11
-  delius-pre-prod      = "0.9.0" # TF11
-  delius-prod          = "0.1.0" # TF11
+  delius-po-test1      = "1.0.0" # TF11
+  delius-perf          = "1.0.0" # TF11
+  delius-stage         = "1.0.0" # TF11
+  delius-training-test = "1.0.0" # TF11
+  delius-training      = "1.0.0" # TF11
+  delius-pre-prod      = "1.0.0" # TF11
+  delius-prod          = "1.0.0" # TF11
 }
 
 delius-network-hmpps-env-configs = {
@@ -33,5 +33,5 @@ delius-network-hmpps-env-configs = {
   delius-training-test = "1.155.0"
   delius-training      = "1.155.0"
   delius-pre-prod      = "1.155.0"
-  delius-prod          = "1.24.0" #2020-05-15:19:34
+  delius-prod          = "1.155.0"
 }
