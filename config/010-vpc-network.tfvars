@@ -10,14 +10,14 @@ hmpps-delius-network-terraform = {
   delius-auto-test     = "1.1.0"
   delius-int           = "1.1.0"
   delius-mis-dev       = "1.1.0"
-  delius-test          = "1.0.0"
-  delius-po-test1      = "1.0.0"
+  delius-test          = "1.1.0"
+  delius-po-test1      = "1.1.0"
   delius-perf          = "1.1.0"
-  delius-stage         = "1.0.0"
+  delius-stage         = "1.1.0"
   delius-training-test = "1.1.0"
-  delius-training      = "1.0.0"
-  delius-pre-prod      = "1.0.0"
-  delius-prod          = "1.0.0"
+  delius-training      = "1.1.0"
+  delius-pre-prod      = "1.1.0"
+  delius-prod          = "1.1.0"
 }
 
 delius-network-hmpps-env-configs = {
