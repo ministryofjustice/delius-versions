@@ -7,12 +7,12 @@
 hmpps-delius-network-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "1.2.0"
-  delius-int           = "1.2.0"
-  delius-mis-dev       = "1.2.0"
-  delius-test          = "1.2.0"
+  delius-auto-test     = "1.4.0"
+  delius-int           = "1.4.0"
+  delius-mis-dev       = "1.4.0"
+  delius-test          = "1.4.0"
   delius-po-test1      = "1.2.0"
-  delius-perf          = "1.2.0"
+  delius-perf          = "1.4.0"
   delius-stage         = "1.2.0"
   delius-training-test = "1.2.0"
   delius-training      = "1.2.0"
