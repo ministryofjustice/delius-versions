@@ -7,33 +7,33 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "2.8.0"
-  delius-int           = "2.8.0"
-  delius-mis-dev       = "2.8.0"
-  delius-test          = "2.8.0"
-  delius-po-test1      = "2.8.0"
-  delius-perf          = "2.8.0"
-  delius-stage         = "2.8.0"
-  delius-training-test = "2.8.0"
-  delius-training      = "2.8.0"
-  delius-pre-prod      = "2.8.0"
-  delius-prod          = "vALS-1362_1.15.0"
+  delius-auto-test     = "2.10.0"
+  delius-int           = "2.10.0"
+  delius-mis-dev       = "2.10.0"
+  delius-test          = "2.10.0"
+  delius-po-test1      = "2.10.0"
+  delius-perf          = "2.10.0"
+  delius-stage         = "2.10.0"
+  delius-training-test = "2.10.0"
+  delius-training      = "2.10.0"
+  delius-pre-prod      = "2.10.0"
+  delius-prod          = "vALS-1365_1.15.0"
 }
 
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "1.166.0"
-  delius-int           = "1.166.0"
-  delius-mis-dev       = "1.166.0"
-  delius-test          = "1.166.0"
-  delius-po-test1      = "1.166.0"
-  delius-perf          = "1.166.0"
-  delius-stage         = "1.166.0"
-  delius-training-test = "1.166.0"
-  delius-training      = "1.166.0"
-  delius-pre-prod      = "1.166.0" #2020-06-02:17:52
-  delius-prod          = "1.94.0"
+  delius-auto-test     = "1.190.0"
+  delius-int           = "1.190.0"
+  delius-mis-dev       = "1.190.0"
+  delius-test          = "1.190.0"
+  delius-po-test1      = "1.190.0"
+  delius-perf          = "1.190.0"
+  delius-stage         = "1.190.0"
+  delius-training-test = "1.190.0"
+  delius-training      = "1.190.0"
+  delius-pre-prod      = "1.190.0"
+  delius-prod          = "vALS-1365_1.94.0"
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
