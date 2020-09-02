@@ -7,16 +7,16 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "2.10.0"
-  delius-int           = "2.10.0"
-  delius-mis-dev       = "2.10.0"
-  delius-test          = "2.10.0"
-  delius-po-test1      = "2.10.0"
-  delius-perf          = "2.10.0"
-  delius-stage         = "2.10.0"
-  delius-training-test = "2.10.0"
-  delius-training      = "2.10.0"
-  delius-pre-prod      = "2.10.0"
+  delius-auto-test     = "2.11.0"
+  delius-int           = "2.11.0"
+  delius-mis-dev       = "2.11.0"
+  delius-test          = "2.11.0"
+  delius-po-test1      = "2.11.0"
+  delius-perf          = "2.11.0"
+  delius-stage         = "2.11.0"
+  delius-training-test = "2.11.0"
+  delius-training      = "2.11.0"
+  delius-pre-prod      = "2.11.0"
   delius-prod          = "vALS-1365_1.15.0"
 }
 
