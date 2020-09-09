@@ -7,17 +7,17 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "2.14.0"
-  delius-int           = "2.14.0"
-  delius-mis-dev       = "2.14.0"
-  delius-test          = "2.14.1"
-  delius-po-test1      = "2.14.0"
-  delius-perf          = "2.14.1"
-  delius-stage         = "2.14.0"
-  delius-training-test = "2.14.0"
-  delius-training      = "2.14.0"
-  delius-pre-prod      = "2.14.0"
-  delius-prod          = "vALS-1365_1.15.0"
+  delius-auto-test     = "2.16.0"
+  delius-int           = "2.16.0"
+  delius-mis-dev       = "2.16.0"
+  delius-test          = "2.16.0"
+  delius-po-test1      = "2.16.0"
+  delius-perf          = "2.16.0"
+  delius-stage         = "2.16.0"
+  delius-training-test = "2.16.0"
+  delius-training      = "2.15.0"
+  delius-pre-prod      = "2.15.0"
+  delius-prod          = "2.15.0"
 }
 
 delius-core-hmpps-env-configs = {
@@ -33,7 +33,7 @@ delius-core-hmpps-env-configs = {
   delius-training-test = "1.208.0"
   delius-training      = "1.208.0"
   delius-pre-prod      = "1.208.0"
-  delius-prod          = "vALS-1365_1.94.0"
+  delius-prod          = "1.208.0"
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
