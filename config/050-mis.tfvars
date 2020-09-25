@@ -19,7 +19,7 @@ mis-hmpps-env-configs = {
   delius-auto-test     = "1.206.0"
   delius-stage         = "1.206.0"
   delius-pre-prod      = "1.206.0"
-  delius-prod          = "1.152.0"
+  delius-prod          = "1.185.0"
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
