@@ -45,3 +45,9 @@ Automatic Bumping: If no #major, #minor or #patch tag is contained in the commit
 
 Note: This action will not bump the tag if the HEAD commit has already been tagged.
 ```
+
+## Engineering
+
+There is no default, and there is no "prod" where there isn’t one specified for that component.
+For network VPC we need to specify a specific branch/tag for "prod" in which that module has various components removed.
+It’s a reasong why for Engineering "dev" is not the correct name anymore, but too deeply ingrained to change - at least for now.
