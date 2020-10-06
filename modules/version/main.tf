@@ -15,7 +15,7 @@ resource "aws_ssm_parameter" "this" {
                   "environment_name", "${each.key}",
                   "subcomponent", "${var.subcomponent}",
                   "item_type", "${var.item_type}",
-                  "item_name", "${var.item_name}",
+                  "item_name", "${replace(var.item_name, local.match_aws_tag_non_permitted_chars, local.replacement)}",
                   "version", "${replace(each.value, local.match_aws_tag_non_permitted_chars, local.replacement)}"
                 ))
 }
