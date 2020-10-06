@@ -30,6 +30,7 @@ terraform {
         "-var-file=${get_parent_terragrunt_dir()}/config/010-vpc-network.tfvars",
         "-var-file=${get_parent_terragrunt_dir()}/config/020-delius-core.tfvars",
         "-var-file=${get_parent_terragrunt_dir()}/config/050-mis.tfvars",
+        "-var-file=${get_parent_terragrunt_dir()}/config/110-engineering.tfvars",
       ]
   }
 }
