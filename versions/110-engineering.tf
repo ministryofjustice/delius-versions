@@ -12,6 +12,20 @@ output "hmpps-engineering-platform-terraform_ecr" {
   value = "${module.hmpps-engineering-platform-terraform_ecr.this}"
 }
 
+module "hmpps-engineering-platform-terraform_jira" {
+  source = "../modules/version"
+
+  subcomponent = "engineering"
+  item_type    = "repo"
+  item_name    = "hmpps-engineering-platform-terraform/jira"
+  env_version  = var.hmpps-engineering-platform-terraform_jira
+  tags         = var.tags
+}
+
+output "hmpps-engineering-platform-terraform_jira" {
+  value = "${module.hmpps-engineering-platform-terraform_jira.this}"
+}
+
 module "hmpps-engineering-platform-terraform_network" {
   source = "../modules/version"
 
