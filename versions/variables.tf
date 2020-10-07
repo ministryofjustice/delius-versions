@@ -58,6 +58,11 @@ variable "hmpps-engineering-platform-terraform_ecr" {
   description = "Parameter key and value"
 }
 
+variable "hmpps-engineering-platform-terraform_jira" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
 variable "hmpps-engineering-platform-terraform_network" {
   type        = map(string)
   description = "Parameter key and value"
