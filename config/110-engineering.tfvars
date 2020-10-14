@@ -5,29 +5,29 @@
 
 # #Infrastructure Terraform
 hmpps-engineering-platform-terraform_ecr = {
-  dev = "0.21.0"
+  dev = "0.22.0"
 }
 
 hmpps-engineering-platform-terraform_jira = {
-  dev = "0.21.0"
+  dev = "0.22.0"
 }
 
 hmpps-engineering-platform-terraform_network = {
-  dev  = "0.21.0"
+  dev  = "0.22.0"
   prod = "0.20.0_VPC-ENG-PROD-DECOMMISIONED"
 }
 
 hmpps-engineering-platform-terraform_oracledb = {
-  dev  = "0.21.0"
-  prod = "0.21.0"
+  dev  = "0.22.0"
+  prod = "0.22.0"
 }
 
 hmpps-engineering-platform-terraform_services = {
-  dev = "0.21.0"
+  dev = "0.22.0"
 }
 
 hmpps-engineering-platform-terraform_vpcpeering = {
-  dev = "0.21.0"
+  dev = "0.22.0"
 }
 
 // AMI
