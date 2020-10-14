@@ -7,16 +7,16 @@
 
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
-  delius-mis-dev       = "0.24.0"
-  delius-auto-test     = "0.24.0"
+  delius-mis-dev       = "0.26.0"
+  delius-auto-test     = "0.26.0"
   delius-stage         = "0.24.0"
   delius-pre-prod      = "0.24.0"
   delius-prod          = "0.24.0"
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.206.0"
-  delius-auto-test     = "1.206.0"
+  delius-mis-dev       = "1.271.0"
+  delius-auto-test     = "1.271.0"
   delius-stage         = "1.206.0"
   delius-pre-prod      = "1.206.0"
   delius-prod          = "1.185.0"
