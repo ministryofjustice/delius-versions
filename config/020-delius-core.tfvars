@@ -40,17 +40,17 @@ delius-core-hmpps-env-configs = {
 # Oracle 11g Database and Oracle 19c Grid combination
 
 delius-core-db-ami = {
-  delius-core-dev      = "HMPPS OracleDB 11g master 1592301712"
-  delius-core-sandpit  = "HMPPS OracleDB 11g master 1592301712"
-  delius-auto-test     = "HMPPS OracleDB 11g master 1592301712"
-  delius-int           = "HMPPS OracleDB 11g master 1592301712"
-  delius-mis-dev       = "HMPPS OracleDB 11g master 1592301712"
-  delius-test          = "HMPPS OracleDB 11g master 1592301712"
-  delius-po-test1      = "HMPPS OracleDB 11g master 1592301712"
+  delius-core-dev      = "HMPPS OracleDB 18c master 1599225437"
+  delius-core-sandpit  = "HMPPS OracleDB 18c master 1599225437"
+  delius-auto-test     = "HMPPS OracleDB 18c master 1599225437"
+  delius-int           = "HMPPS OracleDB 18c master 1599225437"
+  delius-mis-dev       = "HMPPS OracleDB 18c master 1599225437"
+  delius-test          = "HMPPS OracleDB 18c master 1599225437"
+  delius-po-test1      = "HMPPS OracleDB 18c master 1599225437"
   delius-perf          = "HMPPS OracleDB 11g master 1592301712"
   delius-stage         = "HMPPS OracleDB 11g master 1592301712"
-  delius-training-test = "HMPPS OracleDB 11g master 1592301712"
-  delius-training      = "HMPPS OracleDB 11g master 1592301712"
+  delius-training-test = "HMPPS OracleDB 18c master 1599225437"
+  delius-training      = "HMPPS OracleDB 18c master 1599225437"
   delius-pre-prod      = "HMPPS OracleDB 11g master 1592301712"
-  delius-prod          = "HMPPS Delius-Core OracleDB master 1563079839"
+  delius-prod          = "HMPPS OracleDB 11g master 1592301712"
 }
