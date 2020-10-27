@@ -7,33 +7,33 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "3.5.0"
-  delius-int           = "3.5.0"
-  delius-mis-dev       = "3.5.0"
-  delius-test          = "3.5.0"
-  delius-po-test1      = "3.5.0"
-  delius-perf          = "3.5.0"
-  delius-stage         = "3.7.0"
-  delius-training-test = "3.5.0"
-  delius-training      = "3.5.0"
-  delius-pre-prod      = "3.5.0"
-  delius-prod          = "3.7.0"
+  delius-auto-test     = "3.8.0"
+  delius-int           = "3.8.0"
+  delius-mis-dev       = "3.8.0"
+  delius-test          = "3.8.0"
+  delius-po-test1      = "3.8.0"
+  delius-perf          = "3.8.0"
+  delius-stage         = "3.8.0"
+  delius-training-test = "3.8.0"
+  delius-training      = "3.8.0"
+  delius-pre-prod      = "3.8.0"
+  delius-prod          = "3.8.0"
 }
 
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test     = "1.244.0"
-  delius-int           = "1.218.0"
-  delius-mis-dev       = "1.218.0"
-  delius-test          = "1.288.0"
-  delius-po-test1      = "1.273.0"
-  delius-perf          = "1.221.0"
-  delius-stage         = "1.238.0"
-  delius-training-test = "1.218.0"
+  delius-auto-test     = "1.292.0"
+  delius-int           = "1.292.0"
+  delius-mis-dev       = "1.292.0"
+  delius-test          = "1.292.0"
+  delius-po-test1      = "1.292.0"
+  delius-perf          = "1.292.0"
+  delius-stage         = "1.292.0"
+  delius-training-test = "1.292.0"
   delius-training      = "1.292.0"
-  delius-pre-prod      = "1.273.0"
-  delius-prod          = "1.259.0"
+  delius-pre-prod      = "1.292.0"
+  delius-prod          = "1.292.0"
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
