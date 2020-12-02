@@ -2,6 +2,11 @@ variable "tags" {
   type = map(string)
 }
 
+variable "environment_name" {
+  type        = string
+  description = "Name of the current environment being deployed to eg. delius-core-dev"
+}
+
 variable "hmpps-delius-network-terraform" {
   type        = map(string)
   description = "Parameter key and value"

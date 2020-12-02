@@ -1,10 +1,11 @@
 module "hmpps-engineering-platform-terraform_ecr" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/ecr"
-  env_version  = var.hmpps-engineering-platform-terraform_ecr
+  versions     = var.hmpps-engineering-platform-terraform_ecr
   tags         = var.tags
 }
 
@@ -13,12 +14,13 @@ output "hmpps-engineering-platform-terraform_ecr" {
 }
 
 module "hmpps-engineering-platform-terraform_jira" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/jira"
-  env_version  = var.hmpps-engineering-platform-terraform_jira
+  versions     = var.hmpps-engineering-platform-terraform_jira
   tags         = var.tags
 }
 
@@ -27,12 +29,13 @@ output "hmpps-engineering-platform-terraform_jira" {
 }
 
 module "hmpps-engineering-platform-terraform_network" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/network"
-  env_version  = var.hmpps-engineering-platform-terraform_network
+  versions     = var.hmpps-engineering-platform-terraform_network
   tags         = var.tags
 }
 
@@ -41,12 +44,13 @@ output "hmpps-engineering-platform-terraform_network" {
 }
 
 module "hmpps-engineering-platform-terraform_oracledb" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/oracledb"
-  env_version  = var.hmpps-engineering-platform-terraform_oracledb
+  versions     = var.hmpps-engineering-platform-terraform_oracledb
   tags         = var.tags
 }
 
@@ -55,12 +59,13 @@ output "hmpps-engineering-platform-terraform_oracledb" {
 }
 
 module "hmpps-engineering-platform-terraform_services" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/services"
-  env_version  = var.hmpps-engineering-platform-terraform_services
+  versions     = var.hmpps-engineering-platform-terraform_services
   tags         = var.tags
 }
 
@@ -69,12 +74,13 @@ output "hmpps-engineering-platform-terraform_services" {
 }
 
 module "hmpps-engineering-platform-terraform_vpcpeering" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "repo"
   item_name    = "hmpps-engineering-platform-terraform/vpcpeering"
-  env_version  = var.hmpps-engineering-platform-terraform_vpcpeering
+  versions     = var.hmpps-engineering-platform-terraform_vpcpeering
   tags         = var.tags
 }
 
@@ -84,12 +90,13 @@ output "hmpps-engineering-platform-terraform_vpcpeering" {
 
 // AMI
 module "bastion-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "ami"
   item_name    = "bastion-ami"
-  env_version  = var.bastion-ami
+  versions     = var.bastion-ami
   tags         = var.tags
 }
 
@@ -98,12 +105,13 @@ output "bastion-ami" {
 }
 
 module "oem-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "ami"
   item_name    = "oem-ami"
-  env_version  = var.oem-ami
+  versions     = var.oem-ami
   tags         = var.tags
 }
 
@@ -112,12 +120,13 @@ output "oem-ami" {
 }
 
 module "rman-catalog-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "engineering"
   item_type    = "ami"
   item_name    = "rman-catalog-ami"
-  env_version  = var.rman-catalog-ami
+  versions     = var.rman-catalog-ami
   tags         = var.tags
 }
 

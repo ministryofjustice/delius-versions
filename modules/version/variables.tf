@@ -13,9 +13,14 @@ variable "item_type" {
   description = "Type  - Name of Source Code Repository || Artefact [repo|artefact|ami]"
 }
 
-variable "env_version" {
+variable "versions" {
   type        = map(string)
   description = "Map of Environment names with Source Code Repository || Artefact version [tag or branch name]"
+}
+
+variable "environment_name" {
+  type        = string
+  description = "Name of the current environment being deployed to eg. delius-core-dev"
 }
 
 variable "tags" {
