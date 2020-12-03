@@ -7,7 +7,7 @@ remote_state {
     bucket         = "${get_env("TG_VERSIONS_REMOTE_STATE_BUCKET", get_env("TG_REMOTE_STATE_BUCKET", "REMOTE_STATE_BUCKET"))}"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "${get_env("TG_REGION", "AWS-REGION")}"
-    dynamodb_table = "${get_env("TG_PROJECT", get_env("TG_ENVIRONMENT_IDENTIFIER", "PROJECT"))}-lock-table"
+    dynamodb_table = "${get_env("TG_VERSIONS_LOCK_TABLE", "${get_env("TG_ENVIRONMENT_IDENTIFIER", "PROJECT")}-lock-table")}"
   }
 
   generate = {
