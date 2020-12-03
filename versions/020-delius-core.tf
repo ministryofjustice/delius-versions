@@ -1,11 +1,12 @@
 module "hmpps-delius-core-terraform" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "delius-core"
-  item_type   = "repo"
-  item_name   = "hmpps-delius-core-terraform"
-  env_version = var.hmpps-delius-core-terraform
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-delius-core-terraform"
+  versions     = var.hmpps-delius-core-terraform
+  tags         = var.tags
 }
 
 output "hmpps-delius-core-terraform" {
@@ -13,13 +14,14 @@ output "hmpps-delius-core-terraform" {
 }
 
 module "delius-core-hmpps-env-configs" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "delius-core"
-  item_type   = "repo"
-  item_name   = "hmpps-env-configs"
-  env_version = var.delius-core-hmpps-env-configs
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-env-configs"
+  versions     = var.delius-core-hmpps-env-configs
+  tags         = var.tags
 }
 
 output "delius-core-hmpps-env-configs" {
@@ -27,13 +29,14 @@ output "delius-core-hmpps-env-configs" {
 }
 
 module "delius-core-db-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "delius-core"
-  item_type   = "ami"
-  item_name   = "db-ami"
-  env_version = var.delius-core-db-ami
-  tags        = var.tags
+  item_type    = "ami"
+  item_name    = "db-ami"
+  versions     = var.delius-core-db-ami
+  tags         = var.tags
 }
 
 output "delius-core-db-ami" {

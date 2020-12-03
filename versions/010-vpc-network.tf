@@ -1,11 +1,12 @@
 module "hmpps-delius-network-terraform" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "vpc-network"
-  item_type   = "repo"
-  item_name   = "hmpps-delius-network-terraform"
-  env_version = var.hmpps-delius-network-terraform
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-delius-network-terraform"
+  versions     = var.hmpps-delius-network-terraform
+  tags         = var.tags
 }
 
 output "hmpps-delius-network-terraform" {
@@ -13,13 +14,14 @@ output "hmpps-delius-network-terraform" {
 }
 
 module "delius-network-hmpps-env-configs" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "vpc-network"
-  item_type   = "repo"
-  item_name   = "hmpps-env-configs"
-  env_version = var.delius-network-hmpps-env-configs
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-env-configs"
+  versions     = var.delius-network-hmpps-env-configs
+  tags         = var.tags
 }
 
 output "delius-network-hmpps-env-configs" {

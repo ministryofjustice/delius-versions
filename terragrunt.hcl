@@ -4,10 +4,10 @@ remote_state {
 
   config = {
     encrypt        = true
-    bucket         = "${get_env("TG_REMOTE_STATE_BUCKET", "REMOTE_STATE_BUCKET")}"
+    bucket         = "${get_env("TG_VERSIONS_REMOTE_STATE_BUCKET", get_env("TG_REMOTE_STATE_BUCKET", "REMOTE_STATE_BUCKET"))}"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "${get_env("TG_REGION", "AWS-REGION")}"
-    dynamodb_table = "${get_env("TG_PROJECT", "PROJECT")}-lock-table"
+    dynamodb_table = "${get_env("TG_PROJECT", get_env("TG_ENVIRONMENT_IDENTIFIER", "PROJECT"))}-lock-table"
   }
 
   generate = {
@@ -18,20 +18,18 @@ remote_state {
 
 terraform {
   extra_arguments "common_vars" {
-    commands = [
-      "destroy",
-      "plan",
-      "import",
-      "push",
-      "refresh",
+    commands = get_terraform_commands_that_need_vars()
+    optional_var_files = [
+      "${get_parent_terragrunt_dir()}/config/010-vpc-network.tfvars",
+      "${get_parent_terragrunt_dir()}/config/020-delius-core.tfvars",
+      "${get_parent_terragrunt_dir()}/config/050-mis.tfvars",
+      "${get_parent_terragrunt_dir()}/config/110-engineering.tfvars",
     ]
+  }
 
-      arguments = [
-        "-var-file=${get_parent_terragrunt_dir()}/config/010-vpc-network.tfvars",
-        "-var-file=${get_parent_terragrunt_dir()}/config/020-delius-core.tfvars",
-        "-var-file=${get_parent_terragrunt_dir()}/config/050-mis.tfvars",
-        "-var-file=${get_parent_terragrunt_dir()}/config/110-engineering.tfvars",
-      ]
+  extra_arguments "disable_input" {
+    commands  = get_terraform_commands_that_need_input()
+    arguments = ["-input=false"]
   }
 }
 
@@ -41,11 +39,8 @@ generate "provider" {
   if_exists = "overwrite_terragrunt"
   contents  = <<EOF
 provider "aws" {
-  region  = "${get_env("TG_REGION", "AWS-REGION")}"
-  version = "~> 2.61"
-
-  # Only these AWS Account IDs may be operated on by this template
-  allowed_account_ids = ["${get_env("TG_ACCOUNT_ID", "ACCOUNT_ID")}"]
+  region  = "${get_env("TG_REGION", "")}"
+  version = "~> 2.0"
 }
 EOF
 }

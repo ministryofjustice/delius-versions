@@ -1,11 +1,12 @@
 module "hmpps-mis-terraform-repo" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "mis"
-  item_type   = "repo"
-  item_name   = "hmpps-mis-terraform-repo"
-  env_version = var.hmpps-mis-terraform-repo
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-mis-terraform-repo"
+  versions     = var.hmpps-mis-terraform-repo
+  tags         = var.tags
 }
 
 output "hmpps-mis-terraform-repo" {
@@ -13,13 +14,14 @@ output "hmpps-mis-terraform-repo" {
 }
 
 module "mis-hmpps-env-configs" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "mis"
-  item_type   = "repo"
-  item_name   = "hmpps-env-configs"
-  env_version = var.mis-hmpps-env-configs
-  tags        = var.tags
+  item_type    = "repo"
+  item_name    = "hmpps-env-configs"
+  versions     = var.mis-hmpps-env-configs
+  tags         = var.tags
 }
 
 output "mis-hmpps-env-configs" {
@@ -27,13 +29,14 @@ output "mis-hmpps-env-configs" {
 }
 
 module "mis-db-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "mis"
-  item_type   = "ami"
-  item_name   = "mis-db-ami"
-  env_version = var.mis-db-ami
-  tags        = var.tags
+  item_type    = "ami"
+  item_name    = "mis-db-ami"
+  versions     = var.mis-db-ami
+  tags         = var.tags
 }
 
 output "mis-db-ami" {
@@ -41,13 +44,14 @@ output "mis-db-ami" {
 }
 
 module "misboe-db-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "mis"
-  item_type   = "ami"
-  item_name   = "misboe-db-ami"
-  env_version = var.misboe-db-ami
-  tags        = var.tags
+  item_type    = "ami"
+  item_name    = "misboe-db-ami"
+  versions     = var.misboe-db-ami
+  tags         = var.tags
 }
 
 output "misboe-db-ami" {
@@ -55,13 +59,14 @@ output "misboe-db-ami" {
 }
 
 module "misdsd-db-ami" {
-  source = "../modules/version"
+  source           = "../modules/version"
+  environment_name = var.environment_name
 
   subcomponent = "mis"
-  item_type   = "ami"
-  item_name   = "misdsd-db-ami"
-  env_version = var.misdsd-db-ami
-  tags        = var.tags
+  item_type    = "ami"
+  item_name    = "misdsd-db-ami"
+  versions     = var.misdsd-db-ami
+  tags         = var.tags
 }
 
 output "misdsd-db-ami" {
