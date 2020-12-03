@@ -28,6 +28,14 @@ The parameter keys will follow the grouping of components as per env-configs
 
 ```
 
+## Deployment
+
+On creation of a Pull Request, the changes will be deployed by CodeBuild to the Engineering-Dev AWS account.
+The status of the deployment can be seen in the Checks section of the Pull Request, so approvers can ensure it has deployed successfully before merging.
+
+After merging a Pull Request to master, CodeBuild will then deploy the changes to all accounts. The status of the deployments can be seen against the commit in GitHub.
+
+For local testing, the Terraform code in this repository can be deployed using the [shared run script](https://github.com/ministryofjustice/hmpps-delius-pipelines/blob/master/run.sh).
 
 
 ## GitHub Actions
