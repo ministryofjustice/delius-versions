@@ -57,3 +57,33 @@ module "delius-core-weblogic-ami" {
 output "delius-core-weblogic-ami" {
   value = module.delius-core-weblogic-ami.this
 }
+
+module "delius-core-ldap-ami" {
+  source           = "../modules/version"
+  environment_name = var.environment_name
+
+  subcomponent = "delius-core"
+  item_type    = "ami"
+  item_name    = "ldap"
+  versions     = var.delius-core-ldap-ami
+  tags         = var.tags
+}
+
+output "delius-core-ldap-ami" {
+  value = module.delius-core-ldap-ami.this
+}
+
+module "delius-core-haproxy-ami" {
+  source           = "../modules/version"
+  environment_name = var.environment_name
+
+  subcomponent = "delius-core"
+  item_type    = "ami"
+  item_name    = "ldap"
+  versions     = var.delius-core-haproxy-ami
+  tags         = var.tags
+}
+
+output "delius-core-haproxy-ami" {
+  value = module.delius-core-haproxy-ami.this
+}

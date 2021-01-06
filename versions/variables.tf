@@ -32,6 +32,16 @@ variable "delius-core-weblogic-ami" {
   description = "Parameter key and value"
 }
 
+variable "delius-core-ldap-ami" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
+variable "delius-core-haproxy-ami" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
 variable "delius-core-db-ami" {
   type        = map(string)
   description = "Parameter key and value"
