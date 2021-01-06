@@ -35,3 +35,19 @@ delius-network-hmpps-env-configs = {
   delius-pre-prod      = "1.170.0"
   delius-prod          = "1.170.0"
 }
+
+delius-network-smtp-ami = {
+  delius-core-dev      = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
+  delius-core-sandpit  = "HMPPS Base CentOS master 1609773202"
+  delius-auto-test     = "HMPPS Base CentOS master 1609773202"
+  delius-int           = "HMPPS Base CentOS master 1609773202"
+  delius-mis-dev       = "HMPPS Base CentOS master 1609773202"
+  delius-test          = "HMPPS Base CentOS master 1609773202"
+  delius-po-test1      = "HMPPS Base CentOS master 1609773202"
+  delius-perf          = "HMPPS Base CentOS master 1609773202"
+  delius-stage         = "HMPPS Base CentOS master 1609773202"
+  delius-training-test = "HMPPS Base CentOS master 1609773202"
+  delius-training      = "HMPPS Base CentOS master 1609773202"
+  delius-pre-prod      = "HMPPS Base CentOS master 1609773202"
+  delius-prod          = "HMPPS Base CentOS master 1609773202"
+}
