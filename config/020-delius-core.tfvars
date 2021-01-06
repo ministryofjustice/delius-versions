@@ -70,3 +70,35 @@ delius-core-weblogic-ami = {
   delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
   delius-prod          = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
 }
+
+delius-core-ldap-ami = {
+  delius-core-dev      = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
+  delius-core-sandpit  = "HMPPS Base CentOS master 1609773202"
+  delius-auto-test     = "HMPPS Base CentOS master 1609773202"
+  delius-int           = "HMPPS Base CentOS master 1609773202"
+  delius-mis-dev       = "HMPPS Base CentOS master 1609773202"
+  delius-test          = "HMPPS Base CentOS master 1609773202"
+  delius-po-test1      = "HMPPS Base CentOS master 1609773202"
+  delius-perf          = "HMPPS Base CentOS master 1609773202"
+  delius-stage         = "HMPPS Base CentOS master 1609773202"
+  delius-training-test = "HMPPS Base CentOS master 1609773202"
+  delius-training      = "HMPPS Base CentOS master 1609773202"
+  delius-pre-prod      = "HMPPS Base CentOS master 1609773202"
+  delius-prod          = "HMPPS Base CentOS master 1609773202"
+}
+
+delius-core-haproxy-ami = {
+  delius-core-dev      = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
+  delius-core-sandpit  = "HMPPS Base CentOS master 1609773202"
+  delius-auto-test     = "HMPPS Base CentOS master 1609773202"
+  delius-int           = "HMPPS Base CentOS master 1609773202"
+  delius-mis-dev       = "HMPPS Base CentOS master 1609773202"
+  delius-test          = "HMPPS Base CentOS master 1609773202"
+  delius-po-test1      = "HMPPS Base CentOS master 1609773202"
+  delius-perf          = "HMPPS Base CentOS master 1609773202"
+  delius-stage         = "HMPPS Base CentOS master 1609773202"
+  delius-training-test = "HMPPS Base CentOS master 1609773202"
+  delius-training      = "HMPPS Base CentOS master 1609773202"
+  delius-pre-prod      = "HMPPS Base CentOS master 1609773202"
+  delius-prod          = "HMPPS Base CentOS master 1609773202"
+}
