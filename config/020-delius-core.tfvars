@@ -54,3 +54,19 @@ delius-core-db-ami = {
   delius-pre-prod      = "HMPPS OracleDB 11g master 1592301712"
   delius-prod          = "HMPPS OracleDB 11g master 1592301712"
 }
+
+delius-core-weblogic-ami = {
+  delius-core-dev      = "HMPPS Delius-Core Weblogic-Admin master 1608564976" # December 21, 2020 at 3:38:56 PM UTC
+  delius-core-sandpit  = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-auto-test     = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-int           = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-mis-dev       = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-test          = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-po-test1      = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-perf          = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-stage         = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-training-test = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-training      = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-prod          = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+}

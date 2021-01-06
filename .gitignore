@@ -5,11 +5,12 @@
 *.tfstate
 *.tfstate.*
 
-
 *.out
 *.plan
 */backend.tf
 */provider.tf
+env_configs
+env_configs/
 
 # Crash log files
 crash.log
