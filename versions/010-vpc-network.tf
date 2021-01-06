@@ -27,3 +27,18 @@ module "delius-network-hmpps-env-configs" {
 output "delius-network-hmpps-env-configs" {
   value = "${module.delius-network-hmpps-env-configs.this}"
 }
+
+module "delius-network-smtp-ami" {
+  source           = "../modules/version"
+  environment_name = var.environment_name
+
+  subcomponent = "delius-network"
+  item_type    = "ami"
+  item_name    = "smtp"
+  versions     = var.delius-network-smtp-ami
+  tags         = var.tags
+}
+
+output "delius-network-smtp-ami" {
+  value = module.delius-network-smtp-ami.this
+}
