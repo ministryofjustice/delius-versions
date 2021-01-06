@@ -79,7 +79,7 @@ module "delius-core-haproxy-ami" {
 
   subcomponent = "delius-core"
   item_type    = "ami"
-  item_name    = "ldap"
+  item_name    = "haproxy"
   versions     = var.delius-core-haproxy-ami
   tags         = var.tags
 }
