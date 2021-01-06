@@ -10,7 +10,7 @@ module "hmpps-delius-core-terraform" {
 }
 
 output "hmpps-delius-core-terraform" {
-  value = "${module.hmpps-delius-core-terraform.this}"
+  value = module.hmpps-delius-core-terraform.this
 }
 
 module "delius-core-hmpps-env-configs" {
@@ -25,7 +25,7 @@ module "delius-core-hmpps-env-configs" {
 }
 
 output "delius-core-hmpps-env-configs" {
-  value = "${module.delius-core-hmpps-env-configs.this}"
+  value = module.delius-core-hmpps-env-configs.this
 }
 
 module "delius-core-db-ami" {
@@ -40,5 +40,20 @@ module "delius-core-db-ami" {
 }
 
 output "delius-core-db-ami" {
-  value = "${module.delius-core-db-ami.this}"
+  value = module.delius-core-db-ami.this
+}
+
+module "delius-core-weblogic-ami" {
+  source           = "../modules/version"
+  environment_name = var.environment_name
+
+  subcomponent = "delius-core"
+  item_type    = "ami"
+  item_name    = "weblogic"
+  versions     = var.delius-core-weblogic-ami
+  tags         = var.tags
+}
+
+output "delius-core-weblogic-ami" {
+  value = module.delius-core-weblogic-ami.this
 }

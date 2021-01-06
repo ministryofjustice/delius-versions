@@ -27,6 +27,11 @@ variable "delius-core-hmpps-env-configs" {
   description = "Parameter key and value"
 }
 
+variable "delius-core-weblogic-ami" {
+  type        = map(string)
+  description = "Parameter key and value"
+}
+
 variable "delius-core-db-ami" {
   type        = map(string)
   description = "Parameter key and value"
