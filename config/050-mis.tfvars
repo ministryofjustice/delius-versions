@@ -17,7 +17,7 @@ hmpps-mis-terraform-repo = {
 mis-hmpps-env-configs = {
   delius-mis-dev       = "1.358.0"
   delius-auto-test     = "1.358.0"
-  delius-stage         = "1.358.0"
+  delius-stage         = "1.412.0"
   delius-pre-prod      = "1.358.0"
   delius-prod          = "1.358.0"
 }
