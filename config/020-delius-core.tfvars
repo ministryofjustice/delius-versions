@@ -68,9 +68,9 @@ delius-core-weblogic-ami = {
   delius-perf          = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
   delius-stage         = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
   delius-training-test = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-training      = "HMPPS Delius-Core Weblogic-Admin master 1608564976" # December 21, 2020 at 3:38:56 PM UTC
-  delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
-  delius-prod          = "HMPPS Delius-Core Weblogic-Admin master 1608564976"
+  delius-training      = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
+  delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
+  delius-prod          = "HMPPS Delius-Core Weblogic-Admin master 1608564976" # December 21, 2020 at 3:38:56 PM UTC
 }
 
 delius-core-ldap-ami = {
