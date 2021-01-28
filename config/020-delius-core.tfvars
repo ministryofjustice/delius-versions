@@ -58,18 +58,18 @@ delius-core-db-ami = {
 }
 
 delius-core-weblogic-ami = {
-  delius-core-dev      = "HMPPS Delius-Core Weblogic-Admin master 1611244063" # January 21, 2021 at 3:50:30 PM UTC
-  delius-core-sandpit  = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-auto-test     = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-int           = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-mis-dev       = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-test          = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-po-test1      = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-perf          = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-stage         = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-training-test = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-training      = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
-  delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1611244063"
+  delius-core-dev      = "HMPPS Delius-Core Weblogic-Admin master 1611841059" # January 28, 2021 at 1:40:20 PM UTC
+  delius-core-sandpit  = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-auto-test     = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-int           = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-mis-dev       = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-test          = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-po-test1      = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-perf          = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-stage         = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-training-test = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-training      = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
+  delius-pre-prod      = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
   delius-prod          = "HMPPS Delius-Core Weblogic-Admin master 1608564976" # December 21, 2020 at 3:38:56 PM UTC
 }
 
