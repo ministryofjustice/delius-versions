@@ -25,26 +25,29 @@ mis-hmpps-env-configs = {
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
 # Oracle 11g Database and Oracle 19c Grid combination
 
+# The HMPPS OracleDB 18c master 1599225437 ami is used for bootstrapping
+# Oracle 18c Database and Oracle 19c Grid combination
+
 mis-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 18c master 1599225437"
   delius-auto-test    = "HMPPS OracleDB 18c master 1599225437"
-  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
-  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
-  delius-prod         = "HMPPS OracleDB 11g master 1592301712"
+  delius-stage        = "HMPPS OracleDB 18c master 1599225437"
+  delius-pre-prod     = "HMPPS OracleDB 18c master 1599225437"
+  delius-prod         = "HMPPS OracleDB 18c master 1599225437"
 }
 
 misboe-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 18c master 1599225437"
   delius-auto-test    = "HMPPS OracleDB 18c master 1599225437"
-  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
-  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
-  delius-prod         = "HMPPS OracleDB 11g master 1592301712"
+  delius-stage        = "HMPPS OracleDB 18c master 1599225437"
+  delius-pre-prod     = "HMPPS OracleDB 18c master 1599225437"
+  delius-prod         = "HMPPS OracleDB 18c master 1599225437"
 }
 
 misdsd-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 18c master 1599225437"
   delius-auto-test    = "HMPPS OracleDB 18c master 1599225437"
-  delius-stage        = "HMPPS OracleDB 11g master 1592301712"
-  delius-pre-prod     = "HMPPS OracleDB 11g master 1592301712"
-  delius-prod         = "HMPPS OracleDB 11g master 1592301712"
+  delius-stage        = "HMPPS OracleDB 18c master 1599225437"
+  delius-pre-prod     = "HMPPS OracleDB 18c master 1599225437"
+  delius-prod         = "HMPPS OracleDB 18c master 1599225437"
 }
