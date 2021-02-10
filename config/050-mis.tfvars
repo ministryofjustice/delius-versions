@@ -15,11 +15,11 @@ hmpps-mis-terraform-repo = {
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.412.0"
-  delius-auto-test     = "1.358.0"
-  delius-stage         = "1.412.0"
-  delius-pre-prod      = "1.358.0"
-  delius-prod          = "1.358.0"
+  delius-mis-dev       = "1.439.0"
+  delius-auto-test     = "1.358.0"   #No longer in use
+  delius-stage         = "1.412.0"   #No longer in use
+  delius-pre-prod      = "1.358.0"   #No longer in use
+  delius-prod          = "1.358.0"   #No longer in use
 }
 
 # The HMPPS OracleDB 11g master 1592301712 ami is used for bootstrapping
