@@ -9,7 +9,7 @@
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "0.45.0"
   delius-auto-test     = "0.45.0"
-  delius-stage         = "0.45.0"
+  delius-stage         = "0.46.0"
   delius-pre-prod      = "0.45.0"
   delius-prod          = "0.45.0"
 }
