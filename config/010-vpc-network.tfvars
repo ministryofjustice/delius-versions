@@ -10,7 +10,7 @@ hmpps-delius-network-terraform = {
   delius-auto-test = "1.12.0"
 
   delius-int           = "1.13.0"
-  delius-mis-dev       = "1.12.0"
+  delius-mis-dev       = "1.13.0"
   delius-test          = "1.12.0"
   delius-po-test1      = "1.12.0"
   delius-perf          = "1.12.0"
