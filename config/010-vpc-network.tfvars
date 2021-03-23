@@ -28,7 +28,7 @@ delius-network-hmpps-env-configs = {
 
   delius-int           = "1.498.0"
   delius-mis-dev       = "1.498.0"
-  delius-test          = "1.497.0"
+  delius-test          = "1.498.0"
   delius-po-test1      = "1.498.0"
   delius-perf          = "1.497.0"
   delius-stage         = "1.498.0"
