@@ -35,7 +35,7 @@ delius-network-hmpps-env-configs = {
   delius-training-test = "1.518.0"
   delius-training      = "1.518.0"
   delius-pre-prod      = "1.518.0"
-  delius-prod          = "1.517.0"
+  delius-prod          = "1.518.0"
 }
 
 delius-network-smtp-ami = {
