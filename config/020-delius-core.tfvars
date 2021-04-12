@@ -26,7 +26,7 @@ delius-core-hmpps-env-configs = {
   # delius-core-sandpit  = "" # force to default to branch
   delius-auto-test = "1.515.0"
 
-  delius-int           = "1.538.0"
+  delius-int           = "1.539.0"
   delius-mis-dev       = "1.539.0"
   delius-test          = "1.515.0"
   delius-po-test1      = "1.515.0"
