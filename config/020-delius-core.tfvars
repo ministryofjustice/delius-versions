@@ -18,7 +18,7 @@ hmpps-delius-core-terraform = {
   delius-training-test = "3.48.0"
   delius-training      = "3.46.0"
   delius-pre-prod      = "3.46.0"
-  delius-prod          = "3.45.0"
+  delius-prod          = "3.46.0"
 }
 
 delius-core-hmpps-env-configs = {
