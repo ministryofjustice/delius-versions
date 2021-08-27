@@ -11,7 +11,7 @@ hmpps-delius-core-terraform = {
 
   delius-int           = "3.61.0"
   delius-mis-dev       = "3.70.0"
-  delius-test          = "3.69.0"
+  delius-test          = "3.70.0"
   delius-po-test1      = "3.69.0"
   delius-perf          = "3.67.0"
   delius-stage         = "3.56.0"
