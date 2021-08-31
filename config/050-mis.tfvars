@@ -8,8 +8,8 @@
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "latest"  #No longer in use, uses latest code
-  delius-auto-test     = "0.76.0"
-  delius-stage         = "0.76.0"
+  delius-auto-test     = "0.77.0"
+  delius-stage         = "0.77.1"
   delius-pre-prod      = "0.76.0"
   delius-prod          = "0.76.1"
 }
