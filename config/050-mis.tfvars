@@ -8,9 +8,10 @@
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "latest"  #No longer in use, uses latest code
-  delius-auto-test     = "0.77.0"
+  delius-int           = "0.77.1"
+  delius-auto-test     = "0.77.1"
   delius-stage         = "0.77.1"
-  delius-pre-prod      = "0.76.0"
+  delius-pre-prod      = "0.77.1"
   delius-prod          = "0.76.1"
 }
 
@@ -27,6 +28,7 @@ mis-hmpps-env-configs = {
 
 mis-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 19c master 1618992806"
+  delius-int          = "HMPPS OracleDB 19c master 1618992806"
   delius-auto-test    = "HMPPS OracleDB 19c master 1618992806"
   delius-stage        = "HMPPS OracleDB 19c master 1618992806"
   delius-pre-prod     = "HMPPS OracleDB 19c master 1618992806"
@@ -35,6 +37,7 @@ mis-db-ami = {
 
 misboe-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 19c master 1618992806"
+  delius-int          = "HMPPS OracleDB 19c master 1618992806"
   delius-auto-test    = "HMPPS OracleDB 19c master 1618992806"
   delius-stage        = "HMPPS OracleDB 19c master 1618992806"
   delius-pre-prod     = "HMPPS OracleDB 19c master 1618992806"
@@ -43,6 +46,7 @@ misboe-db-ami = {
 
 misdsd-db-ami = {
   delius-mis-dev      = "HMPPS OracleDB 19c master 1618992806"
+  delius-int          = "HMPPS OracleDB 19c master 1618992806"
   delius-auto-test    = "HMPPS OracleDB 19c master 1618992806"
   delius-stage        = "HMPPS OracleDB 19c master 1618992806"
   delius-pre-prod     = "HMPPS OracleDB 19c master 1618992806"
