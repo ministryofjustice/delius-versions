@@ -17,7 +17,7 @@ hmpps-delius-network-terraform = {
   delius-stage         = "1.24.0"
   delius-training-test = "1.24.0"
   delius-training      = "1.22.0"
-  delius-pre-prod      = "1.20.0"
+  delius-pre-prod      = "1.24.0"
   delius-prod          = "1.18.0"
 }
 
