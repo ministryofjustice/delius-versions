@@ -35,7 +35,7 @@ delius-core-hmpps-env-configs = {
   delius-training-test = "1.773.0"
   delius-training      = "1.773.0"
   delius-pre-prod      = "1.773.0"
-  delius-prod          = "1.772.0"
+  delius-prod          = "1.773.0"
 }
 
 # The HMPPS OracleDB 19c master 1618992806 ami is used for bootstrapping
