@@ -34,7 +34,7 @@ delius-core-hmpps-env-configs = {
   delius-stage         = "1.775.0"
   delius-training-test = "1.775.0"
   delius-training      = "1.773.0"
-  delius-pre-prod      = "1.773.0"
+  delius-pre-prod      = "1.775.0"
   delius-prod          = "1.773.0"
 }
 
