@@ -15,10 +15,10 @@ hmpps-mis-terraform-repo = {
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.934.0"
-  delius-auto-test     = "1.934.0"   #No longer in use
-  delius-stage         = "1.934.0"   #No longer in use
-  delius-pre-prod      = "1.934.0"   #No longer in use
+  delius-mis-dev       = "1.935.0"
+  delius-auto-test     = "1.935.0"   #No longer in use
+  delius-stage         = "1.935.0"   #No longer in use
+  delius-pre-prod      = "1.935.0"   #No longer in use
   delius-prod          = "1.358.0"   #No longer in use
 }
 
