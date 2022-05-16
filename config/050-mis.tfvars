@@ -9,8 +9,8 @@
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "latest"  #No longer in use, uses latest code
   delius-auto-test     = "0.89.0"  #Running config version 1.748.0
-  delius-stage         = "0.89.0"
-  delius-pre-prod      = "0.89.0"
+  delius-stage         = "0.91.0"
+  delius-pre-prod      = "0.91.0"
   delius-prod          = "0.89.0"
 }
 
