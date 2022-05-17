@@ -5,8 +5,7 @@
 
 # #Infrastructure Terraform
 hmpps-delius-core-terraform = {
-  # delius-core-dev      = "" # force to default to branch
-  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-int           = "3.61.0"
   delius-mis-dev       = "3.106.0"
@@ -15,14 +14,13 @@ hmpps-delius-core-terraform = {
   delius-perf          = "3.106.0"
   delius-stage         = "3.106.0"
   delius-training-test = "3.106.0"
-  delius-training      = "3.105.0"
+  delius-training      = "3.106.0"
   delius-pre-prod      = "3.106.0"
   delius-prod          = "3.105.0"
 }
 
 delius-core-hmpps-env-configs = {
-  # delius-core-dev      = "" # force to default to branch
-  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-int           = "1.663.0"
   delius-mis-dev       = "1.958.0"
