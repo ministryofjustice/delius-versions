@@ -5,8 +5,7 @@
 
 # Infrastructure Terraform
 hmpps-delius-network-terraform = {
-  # delius-core-dev      = "" # force to default to branch
-  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-int           = "1.22.0"
   delius-mis-dev       = "1.33.0"
@@ -21,11 +20,10 @@ hmpps-delius-network-terraform = {
 }
 
 delius-network-hmpps-env-configs = {
-  # delius-core-dev      = "" # force to default to branch
-  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-int           = "1.713.0"
-  delius-mis-dev       = "1.958.0"
+  delius-mis-dev       = "1.959.0"
   delius-test          = "1.958.0"
   delius-po-test1      = "1.958.0"
   delius-perf          = "1.958.0"
