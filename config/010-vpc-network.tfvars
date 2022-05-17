@@ -7,7 +7,6 @@
 hmpps-delius-network-terraform = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test = "1.33.0"
 
   delius-int           = "1.22.0"
   delius-mis-dev       = "1.33.0"
@@ -24,7 +23,6 @@ hmpps-delius-network-terraform = {
 delius-network-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
   # delius-core-sandpit  = "" # force to default to branch
-  delius-auto-test = "1.946.0"
 
   delius-int           = "1.713.0"
   delius-mis-dev       = "1.958.0"
@@ -41,7 +39,6 @@ delius-network-hmpps-env-configs = {
 delius-network-smtp-ami = {
   delius-core-dev      = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
   delius-core-sandpit  = "HMPPS Base CentOS master 1609773202"
-  delius-auto-test     = "HMPPS Base CentOS master 1609773202"
   delius-int           = "HMPPS Base CentOS master 1609773202"
   delius-mis-dev       = "HMPPS Base CentOS master 1609773202"
   delius-test          = "HMPPS Base CentOS master 1609773202"
