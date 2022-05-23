@@ -8,16 +8,16 @@
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "latest"  #No longer in use, uses latest code
-  delius-stage         = "0.91.1"
-  delius-pre-prod      = "0.91.1"
-  delius-prod          = "0.91.1"
+  delius-stage         = "0.92.1"
+  delius-pre-prod      = "0.92.1"
+  delius-prod          = "0.92.1"
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev       = "1.956.0"
-  delius-stage         = "1.946.0"   #No longer in use
-  delius-pre-prod      = "1.946.0"   #No longer in use
-  delius-prod          = "1.946.0"   #No longer in use
+  delius-mis-dev       = "1.968.0"
+  delius-stage         = "1.968.0"   #No longer in use
+  delius-pre-prod      = "1.968.0"   #No longer in use
+  delius-prod          = "1.968.0"   #No longer in use
 }
 
 # The HMPPS OracleDB 19c master 1618992806 ami is used for bootstrapping
