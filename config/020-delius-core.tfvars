@@ -8,7 +8,7 @@ hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-int           = "3.61.0"
-  delius-mis-dev       = "3.107.0"
+  delius-mis-dev       = "3.108.0"
   delius-test          = "3.107.0"
   delius-po-test1      = "3.107.0"
   delius-perf          = "3.107.0"
