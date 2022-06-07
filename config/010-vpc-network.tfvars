@@ -14,20 +14,20 @@ hmpps-delius-network-terraform = {
   delius-training-test = "1.35.0"
   delius-training      = "1.35.0"
   delius-pre-prod      = "1.35.0"
-  delius-prod          = "1.32.0"
+  delius-prod          = "1.35.0"
 }
 
 delius-network-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
-  delius-mis-dev       = "1.984.0"
-  delius-test          = "1.984.0"
-  delius-perf          = "1.984.0"
-  delius-stage         = "1.984.0"
-  delius-training-test = "1.984.0"
-  delius-training      = "1.983.0"
-  delius-pre-prod      = "1.983.0"
-  delius-prod          = "1.907.0"
+  delius-mis-dev       = "1.985.0"
+  delius-test          = "1.985.0"
+  delius-perf          = "1.985.0"
+  delius-stage         = "1.985.0"
+  delius-training-test = "1.985.0"
+  delius-training      = "1.985.0"
+  delius-pre-prod      = "1.985.0"
+  delius-prod          = "1.985.0"
 }
 
 delius-network-smtp-ami = {
