@@ -22,7 +22,7 @@ delius-core-hmpps-env-configs = {
 
   delius-mis-dev       = "1.988.0"
   delius-test          = "1.987.0"
-  delius-perf          = "1.987.0"
+  delius-perf          = "1.988.0"
   delius-stage         = "1.987.0"
   delius-training-test = "1.987.0"
   delius-training      = "1.976.0"
