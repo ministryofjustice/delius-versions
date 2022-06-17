@@ -21,7 +21,7 @@ delius-network-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
   delius-mis-dev       = "1.998.0"
-  delius-test          = "1.997.0"
+  delius-test          = "1.998.0"
   delius-perf          = "1.998.0"
   delius-stage         = "1.997.0"
   delius-training-test = "1.998.0"
