@@ -9,7 +9,6 @@ hmpps-delius-network-terraform = {
 
   delius-mis-dev       = "1.37.0"
   delius-test          = "1.37.0"
-  delius-perf          = "1.37.0"
   delius-stage         = "1.37.0"
   delius-training-test = "1.37.0"
   delius-training      = "1.37.0"
@@ -22,7 +21,6 @@ delius-network-hmpps-env-configs = {
 
   delius-mis-dev       = "1.1016.0"
   delius-test          = "1.1016.0"
-  delius-perf          = "1.1014.0"
   delius-stage         = "1.1016.0"
   delius-training-test = "1.1015.0"
   delius-training      = "1.1014.0"
@@ -35,7 +33,6 @@ delius-network-smtp-ami = {
   delius-core-sandpit  = "HMPPS Base CentOS master 1609773202"
   delius-mis-dev       = "HMPPS Base CentOS master 1609773202"
   delius-test          = "HMPPS Base CentOS master 1609773202"
-  delius-perf          = "HMPPS Base CentOS master 1609773202"
   delius-stage         = "HMPPS Base CentOS master 1609773202"
   delius-training-test = "HMPPS Base CentOS master 1609773202"
   delius-training      = "HMPPS Base CentOS master 1609773202"
