@@ -7,7 +7,7 @@
 hmpps-delius-core-terraform = {
   # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
 
-  delius-mis-dev       = "3.112.0"
+  delius-mis-dev       = "3.113.0"
   delius-test          = "3.112.0"
   delius-perf          = "3.111.0"
   delius-stage         = "3.112.0"
