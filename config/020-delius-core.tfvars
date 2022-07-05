@@ -5,7 +5,7 @@
 
 # #Infrastructure Terraform
 hmpps-delius-core-terraform = {
-  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch
 
   delius-mis-dev  = "3.114.0"
   delius-test     = "3.114.0"
@@ -16,7 +16,7 @@ hmpps-delius-core-terraform = {
 }
 
 delius-core-hmpps-env-configs = {
-  # delius-core-dev      = "" # force to default to branch  # delius-core-sandpit  = "" # force to default to branch
+  # delius-core-dev      = "" # force to default to branch
 
   delius-mis-dev  = "1.1032.0"
   delius-test     = "1.1032.0"
@@ -31,7 +31,6 @@ delius-core-hmpps-env-configs = {
 
 delius-core-db-ami = {
   delius-core-dev     = "HMPPS OracleDB 19c master 1618992806"
-  delius-core-sandpit = "HMPPS OracleDB 19c master 1618992806"
   delius-mis-dev      = "HMPPS OracleDB 19c master 1618992806"
   delius-test         = "HMPPS OracleDB 19c master 1618992806"
   delius-stage        = "HMPPS OracleDB 19c master 1618992806"
@@ -42,7 +41,6 @@ delius-core-db-ami = {
 
 delius-core-weblogic-ami = {
   delius-core-dev     = "HMPPS Delius-Core Weblogic-Admin master 1611841059" # January 28, 2021 at 1:40:20 PM UTC
-  delius-core-sandpit = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
   delius-mis-dev      = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
   delius-test         = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
   delius-stage        = "HMPPS Delius-Core Weblogic-Admin master 1611841059"
@@ -53,7 +51,6 @@ delius-core-weblogic-ami = {
 
 delius-core-ldap-ami = {
   delius-core-dev     = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
-  delius-core-sandpit = "HMPPS Base CentOS master 1609773202"
   delius-mis-dev      = "HMPPS Base CentOS master 1609773202"
   delius-test         = "HMPPS Base CentOS master 1609773202"
   delius-stage        = "HMPPS Base CentOS master 1609773202"
@@ -64,7 +61,6 @@ delius-core-ldap-ami = {
 
 delius-core-haproxy-ami = {
   delius-core-dev     = "HMPPS Base CentOS master 1609773202" # January 4, 2021 at 3:22:13 PM UTC
-  delius-core-sandpit = "HMPPS Base CentOS master 1609773202"
   delius-mis-dev      = "HMPPS Base CentOS master 1609773202"
   delius-test         = "HMPPS Base CentOS master 1609773202"
   delius-stage        = "HMPPS Base CentOS master 1609773202"
