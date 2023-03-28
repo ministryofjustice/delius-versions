@@ -8,9 +8,9 @@
 # #Infrastructure Terraform
 hmpps-mis-terraform-repo = {
   delius-mis-dev       = "latest"  #No longer in use, uses latest code
-  delius-stage         = "0.101.0"
-  delius-pre-prod      = "0.101.0"
-  delius-prod          = "0.101.0"
+  delius-stage         = "0.102.0"
+  delius-pre-prod      = "0.102.0"
+  delius-prod          = "0.102.0"
 }
 
 mis-hmpps-env-configs = {
