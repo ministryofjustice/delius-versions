@@ -12,7 +12,7 @@ hmpps-delius-core-terraform = {
   delius-stage    = "3.181.0"
   delius-training = "3.181.0"
   delius-pre-prod = "3.181.0"
-  delius-prod     = "3.176.0"
+  delius-prod     = "3.181.0"
 }
 
 delius-core-hmpps-env-configs = {
