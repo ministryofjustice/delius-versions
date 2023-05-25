@@ -18,7 +18,7 @@ hmpps-delius-core-terraform = {
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
 
-  delius-mis-dev  = "1.1395.0"
+  delius-mis-dev  = "1.1396.0"
   delius-test     = "1.1395.0"
   delius-stage    = "1.1395.0"
   delius-training = "1.1388.0"
