@@ -11,7 +11,6 @@ The parameter keys will follow the grouping of components as per env-configs
 - alfresco
 - spg
 - mis
-- iaps
 - new-tech
 
 
