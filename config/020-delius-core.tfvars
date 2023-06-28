@@ -18,12 +18,12 @@ hmpps-delius-core-terraform = {
 delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
 
-  delius-mis-dev  = "1.1410.0"
-  delius-test     = "1.1410.0"
-  delius-stage    = "1.1410.0"
-  delius-training = "1.1410.0"
-  delius-pre-prod = "1.1410.0"
-  delius-prod     = "1.1409.0"
+  delius-mis-dev  = "1.1411.0"
+  delius-test     = "1.1411.0"
+  delius-stage    = "1.1411.0"
+  delius-training = "1.1411.0"
+  delius-pre-prod = "1.1411.0"
+  delius-prod     = "1.1411.0"
 }
 
 # The HMPPS OracleDB 19c master 1618992806 ami is used for bootstrapping
