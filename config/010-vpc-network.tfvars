@@ -22,7 +22,7 @@ delius-network-hmpps-env-configs = {
   delius-test     = "1.1474.0"
   delius-stage    = "1.1474.0"
   delius-training = "1.1474.0"
-  delius-pre-prod = "1.1473.0"
+  delius-pre-prod = "1.1474.0"
   delius-prod     = "1.1424.0"
 }
 
