@@ -23,7 +23,7 @@ delius-network-hmpps-env-configs = {
   delius-stage    = "1.1583.0"
   delius-training = "1.1583.0"
   delius-pre-prod = "1.1583.0"
-  delius-prod     = "1.1424.0"
+  delius-prod     = "1.1583.0"
 }
 
 delius-network-smtp-ami = {
