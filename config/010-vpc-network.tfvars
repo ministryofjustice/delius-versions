@@ -7,7 +7,7 @@
 hmpps-delius-network-terraform = {
   # delius-core-dev      = "" # force to default to branch 
 
-  delius-mis-dev  = "1.59.0"
+  delius-mis-dev  = "1.60.0"
   delius-test     = "1.59.0"
   delius-stage    = "1.59.0"
   delius-training = "1.59.0"
