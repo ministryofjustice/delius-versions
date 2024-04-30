@@ -19,7 +19,7 @@ delius-core-hmpps-env-configs = {
   # delius-core-dev      = "" # force to default to branch
 
   delius-mis-dev  = "1.1624.0"
-  delius-test     = "1.1622.0"
+  delius-test     = "1.1624.0"
   delius-stage    = "1.1624.0"
   delius-training = "1.1528.0"
   delius-pre-prod = "1.1549.0"
