@@ -20,7 +20,7 @@ delius-network-hmpps-env-configs = {
 
   delius-mis-dev  = "1.1817.0"
   delius-test     = "1.1816.0"
-  delius-stage    = "1.1816.0"
+  delius-stage    = "1.1817.0"
   delius-training = "1.1583.0"
   delius-pre-prod = "1.1583.0"
   delius-prod     = "1.1583.0"
