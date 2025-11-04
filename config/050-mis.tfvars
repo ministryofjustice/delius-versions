@@ -14,7 +14,7 @@ hmpps-mis-terraform-repo = {
 }
 
 mis-hmpps-env-configs = {
-  delius-mis-dev  = "1.1811.0"
+  delius-mis-dev  = "1.2000.0"
   delius-stage    = "1.968.0" #No longer in use
   delius-pre-prod = "1.968.0" #No longer in use
   delius-prod     = "1.968.0" #No longer in use
